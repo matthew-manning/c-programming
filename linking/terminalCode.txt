@@ -1,0 +1,6 @@
+												  gcc -Wall lib.c -o lib.o -c	#compile lib to object
+matthew@matthew-H97M-D3H:~/desktop/cProg/linking$ gcc -Wall prog.c -o prog.o -c	#compile program to object
+matthew@matthew-H97M-D3H:~/desktop/cProg/linking$ gcc -o prog prog.o lib.o		#link to form prog 
+matthew@matthew-H97M-D3H:~/desktop/cProg/linking$ ./prog 
+value is 15
+
